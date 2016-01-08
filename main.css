@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #fffae8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bird {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.crest {
+  position: absolute;
+  border-left: 72px solid transparent;
+  border-bottom: 16px solid #301D2E;
+  border-right: 8px solid transparent;
+  top: 200px;
+  left: 283px;
+}
+
+.head {
+  position: absolute;
+  border-left: 68px solid transparent;
+  border-bottom: 73px solid #F6EAEA;
+  border-right: 55px solid #F6EAEA;
+  top: 206px;
+  left: 228px;
+  -webkit-transform: rotate(7deg);
+}
+
+.vertebrae1 {
+  position: absolute;
+  border-left: 35px solid transparent;
+  border-bottom: 37px solid #E09392;
+  border-right: 53px solid transparent;
+  -webkit-transform: rotate(2834deg);
+  top: 277px;
+  left: 187px;
+}
+
+.vertebrae2 {
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-bottom: 25px solid #EEF0EC;
+  border-right: 25px solid #231D2A;
+  border-top: 14px solid transparent;
+  -webkit-transform: rotate(291deg);
+  top: 325px;
+  left: 171px;
+}
+
+.vertebrae3 {
+  position: absolute;
+  border-left: 21px solid #F6EAEA;
+  border-bottom: 10px solid #F6EAEA;
+  border-right: 20px solid transparent;
+  border-top: 18px solid transparent;
+  -webkit-transform: rotate(282deg);
+  top: 292px;
+  left: 173px;
+}
+.vertebrae4 {
+  position: absolute;
+  border-left: 19px solid transparent;
+  border-bottom: 17px solid #301D2E;
+  border-right: 36px solid transparent;
+  border-top: 1px solid transparent;
+  -webkit-transform: rotate(2deg);
+  top: 260px;
+  left: 218px;
+}
+
+.vertebrae5 {
+  position: absolute;
+  border-left: 32px solid transparent;
+  border-bottom: 23px solid #E2D1D6;
+  border-right: 28px solid transparent;
+  -webkit-transform: rotate(-19deg);
+  top: 320px;
+  left: 206px;
+}
+
+.peak {
+  position: absolute;
+  border-top: 26px solid transparent;
+  border-left: 24px solid #9F2D2E;
+  -webkit-transform: rotate(11deg);
+  top: 220px;
+  left: 362px
+}
+
+.queue {
+  position: absolute;
+  border-bottom: 41px solid transparent;
+  border-right: 157px solid #D98680;
+  -webkit-transform: rotate(-34deg);
+  top: 372px;
+  left: 31px;
+}
+
+.chest1 {
+  position: absolute;
+  border-top: 0px solid transparent;
+  border-right: 10px solid #D98680;
+  border-bottom: 130px solid transparent;
+  -webkit-transform: rotate(9deg);
+  top: 216px;
+  left: 345px;
+}
+
+.chest2 {
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 9px solid #301D2E;
+  border-right: 12px solid #301D2E;
+  -webkit-transform: rotate(180deg);
+  top: 341px;
+  left: 327px;
+}
+
+.chest3 {
+  position: absolute;
+  border-left: 32px solid transparent;
+  border-bottom: 23px solid #F6EAEA;
+  border-right: 28px solid transparent;
+  -webkit-transform: rotate(-85deg);
+  top: 289px;
+  left: 303px;
+}
+.thigh {
+  position: absolute;
+  border-left: 33px solid transparent;
+  border-bottom: 37px solid #E2D1D6;
+  border-right: 40px solid transparent;
+  -webkit-transform: rotate(-51deg);
+  top: 359px;
+  left: 234px;
+}
+
+.leg {
+  position: absolute;
+  border-top: 35px solid transparent;
+  border-left: 35px solid #301D2E;
+  border-bottom: 35px solid transparent;
+  -webkit-transform: rotate(270deg);
+  top: 365px;
+  left: 284px;
+}
+
+.wing1 {
+  position: absolute;
+  border-top: 5px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 51px solid #301D2E;
+  border-right: 31px solid #E5DBDC;
+  -webkit-transform: rotate(231deg);
+  top: 272px;
+  left: 264px;
+}
+
+.wing2 {
+  position: absolute;
+  border-top: 21px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 38px solid #E6DFE6;
+  border-right: 52px solid #E09392;
+  top: 302px;
+  left: 253px;
+}
+
+.wing3 {
+  position: absolute;
+  border-left: 24px solid transparent;
+  border-bottom: 23px solid #301D2E;
+  border-right: 40px solid transparent;
+  -webkit-transform: rotate(139deg);
+  top: 362px;
+  left: 206px;
+}
+
+.wing4 {
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-bottom: 23px solid #E6DFE6;
+  border-right: 60px solid transparent;
+  -webkit-transform: rotate(-41deg);
+  top: 341px;
+  left: 189px;
+}
